@@ -22,24 +22,24 @@ O objetivo deste projeto é simular um dispositivo IoT que coleta informações 
 
 1. Clone este repositório em sua máquina local:
 
-git clone https://github.com/seu-usuario/iot-data-collection.git
+- git clone https://github.com/seu-usuario/iot-data-collection.git
 
 
 2. Navegue para a pasta do dispositivo IoT:
 
-cd iot-data-collection/dispositivo-iot
+- cd iot-data-collection/dispositivo-iot
 
 
 ## Uso
 
 1. Inicie o servidor Flask:
 
-python app.py
+- python app.py
 
 
 2. Em outra janela do terminal, execute o código do dispositivo IoT:
 
-python infoGathering.py
+- python infoGathering.py
 
 
 O código do dispositivo IoT irá ler os dados do sensor e enviá-los para o servidor Flask.
